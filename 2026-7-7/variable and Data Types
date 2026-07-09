@@ -1,15 +1,36 @@
 variable and Data Types
 
 python Keywords
-False         def       import     return
-None          del       in         try
-True          elif      is         while
-and           except    lambda     with
-as            finally   nonlocal   yield
-assert        for       not
-break         from      or
-class         global    pass
-continue      if        raise
+True / False: Boolean values representing true and false.
+None: A special constant representing the absence of a value (Null).
+if: Starts a conditional statement.
+elif: Short for "else if", checks another condition if previous ones are false.
+else: Executes when all previous conditions are false.
+for: Iterates over a sequence (like a list or range).
+while: Repeats a code block as long as a condition remains true.
+break: Terminates the loop immediately.
+continue: Skips the rest of the current loop iteration and moves to the next.
+pass: A null statement used as a placeholder where code is syntactically required.
+return: Exits a function and returns a value.
+def: Defines a new function.
+lambda: Creates an anonymous, single-line function
+yield: Pauses a function and returns a value to a generator.
+class: Defines a new user-defined object type.
+try: Defines a block of code to test for errors.
+except: Handles the error if one occurs in the try block.
+finally: Executes code regardless of whether an exception occurred or not.
+raise: Intentionally triggers a specific error or exception.
+assert: Used for debugging purposes to test if a condition is true.
+and / or / not: Logical operators (AND, OR, NOT).
+in: Checks if a value exists within a sequence (list, tuple, etc.).
+is: Tests if two variables point to the exact same object in memory.
+global: Declares that a variable inside a function refers to a global variable.
+nonlocal: Declares that a variable inside a nested function refers to a variable in the outer function.
+import: Imports a library or module into your script.
+from: Imports specific parts or functions from a module.
+as: Creates an alias (nickname) for a module or function.
+with: Simplifies exception handling by automatically managing resources (like closing files).
+del: Deletes references to objects or variables.
 
 Naming Rule
 Variable names must begin with either a letter or an underscore. should not use anything other than letters, numbers or underscore to identify my variable.
