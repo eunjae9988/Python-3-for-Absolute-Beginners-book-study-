@@ -16,3 +16,7 @@ total_price=roll_width * price_per_metre
 #if 
 >>print("Male" "Gnome")
 #output is MaleGnome
+
+#Converting One Type into Another
+>>>float(23)
+#output is 23.0 
