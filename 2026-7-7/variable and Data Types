@@ -65,5 +65,29 @@ Naming Rule
 Variable names must begin with either a letter or an underscore. should not use anything other than letters, numbers or underscore to identify my variable.
 Python is generally case-sensitive, which means that lowercase and uppercase letters are treated different characters.
 
-Creating Variables and Assigning values
-I
+Escaping Sequences
+If you need to print a literal backslash, you have to escape the backslash itself, like \\.
+
+Using Special Whitespace Character
+\n = newline
+\r = Carriage return 
+\t = Tab
+\v = Vertical tab
+\e = Escape character
+\f = Formfeed
+\b = Backspace
+\a = Bell
+
+Creating a Text Application 
+use #
+
+The more strings change the More they stay the same
+They are immutable; this means they can't be changed. 
+
+Working with Factions and Floats
+Fractional numbers are expressed using numbers before and after a decimal point using the float type Like integers, these number can be positive r negative. Even if the part after the decimal point is zero, the number is considered to be a float.
+
+Converting One Type into Another
+Functions have a very different synatax from operators: the value to be acted upon goes inside the brackets after the function name. 
+
+ConI
