@@ -9,3 +9,6 @@ Important vocabs in this chapter
 - Bit is a digit in the binary number system. It an have 0 or 1
 - Boolean is variable type that only can take one of two values, True or False
 - Byte is the smallest unit of storage that can be accessed in a computer's memory.
+
+7/14/2026-7/22/2026
+
