@@ -1,2 +1,13 @@
 Comparing Thing
 Conditional statementstransform the script from being just a list of instructions to somehthing that can make decisions on the fly based on the informaiton that it receives. 
+comparison operators:
+<:Less than
+<=:Less Than or equal
+>:Greater than
+>=Greater than or equal
+!=:Not equal
+
+Operands are the bits of data on the left and right of the operator in an expression. 
+The operands on either side of the comparison operator must be of types that can be compared. 
+*The operands and the comparison operator together are a conditional expression.*
+
