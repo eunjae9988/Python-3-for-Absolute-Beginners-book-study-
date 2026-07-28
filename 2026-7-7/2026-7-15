@@ -11,3 +11,13 @@ Operands are the bits of data on the left and right of the operator in an expres
 The operands on either side of the comparison operator must be of types that can be compared. 
 *The operands and the comparison operator together are a conditional expression.*
 
+Combining conditional expression can be combined to produce relatively complex conditions using the logical operators, and or.
+
+Using Dictionaries
+Dictionaries are used anywhere want to store arributes andvalues that describe some concpet or entity.
+
+Sorting dictionaries
+Sort the output from any of the dictionary methods using the built in sorted () function.
+
+Set
+Using the if item in set statement. Notice that creating a set automatically removes any duplicate entires. 
