@@ -21,3 +21,11 @@ Sort the output from any of the dictionary methods using the built in sorted () 
 
 Set
 Using the if item in set statement. Notice that creating a set automatically removes any duplicate entires. 
+
+Stacks and Queues
+A stack is a last in, first out structure, used rather like the discard pile in a card game. 
+Can push items ono the stack with list.append() and pop them back off with pop().
+
+Multidimensional list
+Lists can be multidimensional, that is to say, nested insdie other lists. List containing other lists can be used as a way of storing a matrix, or table of information. 
+
