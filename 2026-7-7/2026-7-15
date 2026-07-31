@@ -2,7 +2,7 @@ Comparing Thing
 Conditional statementstransform the script from being just a list of instructions to somehthing that can make decisions on the fly based on the informaiton that it receives. 
 comparison operators:
 
-<:Less than
+<: Less than
 <=:Less Than or equal
 >:Greater than
 >=Greater than or equal
