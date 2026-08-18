@@ -4,3 +4,14 @@ Functions
 - Define a function using def.
 - A function can receive parameters and return a value.
 - Use return to send a value back to the part of the program that called the function.
+
+Accessing Privileged Information
+- Some information or operations require special access or permission.
+- A program may need to use specific functions or modules to access this information.
+- Privileges determine what a program or user is allowed to access.
+
+Working with Variable Scope
+-Scope determines where a variable can be accessed in a program.
+-A local variable is created inside a function and can normally only be used inside that function.
+-A global variable is created outside functions and can be accessed from different parts of the program.
+-Avoid using too many global variables because they can make programs harder to understand and maintain.
