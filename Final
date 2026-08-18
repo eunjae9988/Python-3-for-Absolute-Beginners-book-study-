@@ -15,3 +15,86 @@ Working with Variable Scope
 -A local variable is created inside a function and can normally only be used inside that function.
 -A global variable is created outside functions and can be accessed from different parts of the program.
 -Avoid using too many global variables because they can make programs harder to understand and maintain.
+
+Refactoring rpcombat.py to Reduce Repetition
+-Refactoring means changing the structure of code without changing what the program does.
+-Functions can be used to eliminate repeated code.
+-Reusing functions makes code:
+-Shorter
+-Easier to read
+-Easier to debug
+-Easier to maintain
+-DRY (Don't Repeat Yourself) is an important programming principle.
+
+Jargon Busting
+* Argument: A value passed to a function.
+* Parameter: A variable that receives an argument.
+* Return value: The value a function sends back.
+* Scope: The part of a program where a variable can be accessed.
+* Refactoring: Improving the structure of existing code without changing its behavior.
+* Module: A file containing Python code that can be imported and reused.
+
+Strings and String Operations
+- A string is a sequence of characters.
+- Strings can contain letters, numbers, spaces, and symbols.
+- Use quotes to create strings:
+      * "Hello"
+      * 'Python'
+- Strings can be combined using +.
+- Use indexing to access individual characters.
+- String methods can be used to modify or analyze strings.
+- Examples:
+   .upper() → converts to uppercase
+   .lower() → converts to lowercase
+   .strip() → removes extra spaces
+   .replace() → replaces part of a string
+   .split() → divides a string into a list
+
+
+Matching Patterns Using Regular Expressions
+1)A regular expression (regex) is a pattern used to search for specific text.
+2)Regex is useful for finding or validating patterns in strings.
+3)Python provides the re module for regular expressions.
+4)Regex can be used to find:
+     Phone numbers
+     Email addresses
+     Specific words
+     Numbers or other patterns
+
+Using Files
+1)Python can read data from and write data to files.
+2)Use open() to open a file.
+3)Common file modes:
+   "r" → read
+   "w" → write
+   "a" → append
+4)read() reads file contents.
+5)write() writes data to a file.
+6)Use with open(...) to safely work with files and automatically close them.
+
+
+Applications
+- A Python program can be turned into a useful application.
+- Applications combine programming concepts such as:
+         Variables 
+         Functions
+         Conditions
+         Loops
+         Files
+         Modules
+- A well-designed application separates different tasks into reusable pieces of code.
+
+Jargon Busting
+1)API: A way for programs to communicate with other software.
+2)Library: A collection of reusable code.
+3)Module: A Python file containing reusable code.
+4)Executable: A file that can be run as a program.
+5)Source code: The human-readable code written by a programmer.
+6)Runtime: The period when a program is actually running.
+
+Making Programs Executable as Stand-Alone Applications
+-  A Python program normally requires Python to be installed to run.
+-  A stand-alone application can package the program and its required components so users can run it more easily.
+-  Packaging tools can convert Python programs into executable files such as .exe.
+-  This allows users to run the application without directly opening the Python source code.
+-  The goal is to make a program easier for non-programmers to use.
